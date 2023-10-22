@@ -15,7 +15,6 @@ export interface Game {
 
 const apiClient = new APIClient<Game>('/games');
 
-// TODO: add Error type
 const useGames = () => {
     const gameQuery = useGameQueryStore(s => s.gameQuery);
 
