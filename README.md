@@ -1,1 +1,1 @@
-![Alt text]("src/assets/UI.png")
+![Alt text](https://github.com/Chaklader/GameHub/blob/main/src/assets/UI.png)
