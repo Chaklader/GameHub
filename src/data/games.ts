@@ -1,4 +1,8 @@
-export default [
+export default {
+    "count": 855240,
+    "next": "https://api.rawg.io/api/games?key=8cf5d11ea1534629be26f41dd4c9eaa9&page=2",
+    "previous": null,
+    "results": [
     {
         "id": 3498,
         "slug": "grand-theft-auto-v",
@@ -36,12 +40,12 @@ export default [
         ],
         "ratings_count": 6570,
         "reviews_text_count": 57,
-        "added": 20129,
+        "added": 20130,
         "added_by_status": {
             "yet": 517,
-            "owned": 11569,
-            "beaten": 5677,
-            "toplay": 596,
+            "owned": 11568,
+            "beaten": 5678,
+            "toplay": 597,
             "dropped": 1061,
             "playing": 709
         },
@@ -942,13 +946,13 @@ export default [
         ],
         "ratings_count": 5478,
         "reviews_text_count": 34,
-        "added": 18277,
+        "added": 18278,
         "added_by_status": {
             "yet": 605,
             "owned": 11289,
             "beaten": 5319,
             "toplay": 355,
-            "dropped": 566,
+            "dropped": 567,
             "playing": 143
         },
         "metacritic": 95,
@@ -1399,40 +1403,40 @@ export default [
         "released": "2012-08-21",
         "tba": false,
         "background_image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
-        "rating": 3.57,
+        "rating": 3.56,
         "rating_top": 4,
         "ratings": [
             {
                 "id": 4,
                 "title": "recommended",
                 "count": 1585,
-                "percent": 46.7
+                "percent": 46.69
             },
             {
                 "id": 3,
                 "title": "meh",
                 "count": 884,
-                "percent": 26.05
+                "percent": 26.04
             },
             {
                 "id": 5,
                 "title": "exceptional",
                 "count": 546,
-                "percent": 16.09
+                "percent": 16.08
             },
             {
                 "id": 1,
                 "title": "skip",
-                "count": 379,
-                "percent": 11.17
+                "count": 380,
+                "percent": 11.19
             }
         ],
-        "ratings_count": 3359,
+        "ratings_count": 3360,
         "reviews_text_count": 26,
-        "added": 15911,
+        "added": 15912,
         "added_by_status": {
             "yet": 255,
-            "owned": 12046,
+            "owned": 12047,
             "beaten": 970,
             "toplay": 76,
             "dropped": 1931,
@@ -1441,9 +1445,9 @@ export default [
         "metacritic": 81,
         "playtime": 65,
         "suggestions_count": 583,
-        "updated": "2023-10-20T10:40:26",
+        "updated": "2023-10-21T20:31:42",
         "user_game": null,
-        "reviews_count": 3394,
+        "reviews_count": 3395,
         "saturated_color": "0f0f0f",
         "dominant_color": "0f0f0f",
         "platforms": [
@@ -1840,11 +1844,11 @@ export default [
         ],
         "ratings_count": 3784,
         "reviews_text_count": 12,
-        "added": 15900,
+        "added": 15902,
         "added_by_status": {
             "yet": 655,
-            "owned": 10289,
-            "beaten": 4076,
+            "owned": 10290,
+            "beaten": 4077,
             "toplay": 253,
             "dropped": 523,
             "playing": 104
@@ -2282,10 +2286,10 @@ export default [
         ],
         "ratings_count": 4556,
         "reviews_text_count": 26,
-        "added": 15540,
+        "added": 15541,
         "added_by_status": {
             "yet": 422,
-            "owned": 9601,
+            "owned": 9602,
             "beaten": 4823,
             "toplay": 252,
             "dropped": 368,
@@ -2750,12 +2754,12 @@ export default [
         ],
         "ratings_count": 3162,
         "reviews_text_count": 10,
-        "added": 15454,
+        "added": 15456,
         "added_by_status": {
             "yet": 371,
-            "owned": 11290,
+            "owned": 11291,
             "beaten": 2401,
-            "toplay": 111,
+            "toplay": 112,
             "dropped": 1138,
             "playing": 143
         },
@@ -3208,8 +3212,8 @@ export default [
         "added": 15193,
         "added_by_status": {
             "yet": 488,
-            "owned": 9058,
-            "beaten": 3614,
+            "owned": 9057,
+            "beaten": 3615,
             "toplay": 396,
             "dropped": 1263,
             "playing": 374
@@ -3627,13 +3631,13 @@ export default [
                 "id": 5,
                 "title": "exceptional",
                 "count": 3546,
-                "percent": 73.33
+                "percent": 73.31
             },
             {
                 "id": 4,
                 "title": "recommended",
-                "count": 886,
-                "percent": 18.32
+                "count": 887,
+                "percent": 18.34
             },
             {
                 "id": 3,
@@ -3648,23 +3652,23 @@ export default [
                 "percent": 2.85
             }
         ],
-        "ratings_count": 4735,
+        "ratings_count": 4736,
         "reviews_text_count": 73,
         "added": 14671,
         "added_by_status": {
             "yet": 888,
-            "owned": 7668,
+            "owned": 7667,
             "beaten": 2996,
             "toplay": 1582,
             "dropped": 642,
-            "playing": 895
+            "playing": 896
         },
         "metacritic": 96,
         "playtime": 20,
         "suggestions_count": 603,
-        "updated": "2023-10-20T22:06:41",
+        "updated": "2023-10-22T05:07:44",
         "user_game": null,
-        "reviews_count": 4836,
+        "reviews_count": 4837,
         "saturated_color": "0f0f0f",
         "dominant_color": "0f0f0f",
         "platforms": [
@@ -4142,11 +4146,11 @@ export default [
         ],
         "ratings_count": 3910,
         "reviews_text_count": 22,
-        "added": 14669,
+        "added": 14670,
         "added_by_status": {
             "yet": 803,
             "owned": 8708,
-            "beaten": 4192,
+            "beaten": 4193,
             "toplay": 387,
             "dropped": 483,
             "playing": 96
@@ -4648,10 +4652,10 @@ export default [
         ],
         "ratings_count": 3111,
         "reviews_text_count": 12,
-        "added": 14479,
+        "added": 14478,
         "added_by_status": {
             "yet": 601,
-            "owned": 9992,
+            "owned": 9991,
             "beaten": 2215,
             "toplay": 219,
             "dropped": 1239,
@@ -5165,14 +5169,14 @@ export default [
         ],
         "ratings_count": 3519,
         "reviews_text_count": 27,
-        "added": 14470,
+        "added": 14471,
         "added_by_status": {
             "yet": 761,
-            "owned": 9322,
+            "owned": 9321,
             "beaten": 3284,
             "toplay": 341,
-            "dropped": 618,
-            "playing": 144
+            "dropped": 619,
+            "playing": 145
         },
         "metacritic": 83,
         "playtime": 6,
@@ -5730,12 +5734,12 @@ export default [
         ],
         "ratings_count": 3727,
         "reviews_text_count": 17,
-        "added": 13828,
+        "added": 13831,
         "added_by_status": {
             "yet": 636,
-            "owned": 8688,
-            "beaten": 3586,
-            "toplay": 297,
+            "owned": 8689,
+            "beaten": 3587,
+            "toplay": 298,
             "dropped": 530,
             "playing": 91
         },
@@ -6161,14 +6165,14 @@ export default [
             {
                 "id": 5,
                 "title": "exceptional",
-                "count": 1696,
-                "percent": 52.92
+                "count": 1697,
+                "percent": 52.93
             },
             {
                 "id": 4,
                 "title": "recommended",
                 "count": 1170,
-                "percent": 36.51
+                "percent": 36.49
             },
             {
                 "id": 3,
@@ -6183,13 +6187,13 @@ export default [
                 "percent": 3.18
             }
         ],
-        "ratings_count": 3164,
+        "ratings_count": 3165,
         "reviews_text_count": 25,
-        "added": 13304,
+        "added": 13306,
         "added_by_status": {
             "yet": 608,
             "owned": 8499,
-            "beaten": 3071,
+            "beaten": 3073,
             "toplay": 318,
             "dropped": 697,
             "playing": 111
@@ -6197,9 +6201,9 @@ export default [
         "metacritic": 96,
         "playtime": 3,
         "suggestions_count": 643,
-        "updated": "2023-10-19T14:18:19",
+        "updated": "2023-10-22T05:37:18",
         "user_game": null,
-        "reviews_count": 3205,
+        "reviews_count": 3206,
         "saturated_color": "0f0f0f",
         "dominant_color": "0f0f0f",
         "platforms": [
@@ -7204,20 +7208,20 @@ export default [
             {
                 "id": 4,
                 "title": "recommended",
-                "count": 1677,
+                "count": 1678,
                 "percent": 52.36
             },
             {
                 "id": 5,
                 "title": "exceptional",
-                "count": 1105,
-                "percent": 34.5
+                "count": 1106,
+                "percent": 34.51
             },
             {
                 "id": 3,
                 "title": "meh",
                 "count": 319,
-                "percent": 9.96
+                "percent": 9.95
             },
             {
                 "id": 1,
@@ -7226,13 +7230,13 @@ export default [
                 "percent": 3.18
             }
         ],
-        "ratings_count": 3167,
+        "ratings_count": 3168,
         "reviews_text_count": 24,
-        "added": 12902,
+        "added": 12905,
         "added_by_status": {
             "yet": 545,
             "owned": 8192,
-            "beaten": 3091,
+            "beaten": 3094,
             "toplay": 296,
             "dropped": 686,
             "playing": 92
@@ -7240,9 +7244,9 @@ export default [
         "metacritic": 88,
         "playtime": 3,
         "suggestions_count": 187,
-        "updated": "2023-10-18T00:58:05",
+        "updated": "2023-10-21T16:50:43",
         "user_game": null,
-        "reviews_count": 3203,
+        "reviews_count": 3205,
         "saturated_color": "0f0f0f",
         "dominant_color": "0f0f0f",
         "platforms": [
@@ -7818,11 +7822,11 @@ export default [
         ],
         "ratings_count": 4558,
         "reviews_text_count": 69,
-        "added": 12878,
+        "added": 12879,
         "added_by_status": {
-            "yet": 662,
-            "owned": 6560,
-            "beaten": 3809,
+            "yet": 663,
+            "owned": 6559,
+            "beaten": 3810,
             "toplay": 1113,
             "dropped": 321,
             "playing": 413
@@ -8239,8 +8243,8 @@ export default [
         "added": 12821,
         "added_by_status": {
             "yet": 612,
-            "owned": 8066,
-            "beaten": 2155,
+            "owned": 8065,
+            "beaten": 2156,
             "toplay": 400,
             "dropped": 1288,
             "playing": 300
@@ -8605,13 +8609,13 @@ export default [
         ],
         "ratings_count": 3399,
         "reviews_text_count": 29,
-        "added": 12749,
+        "added": 12750,
         "added_by_status": {
             "yet": 555,
             "owned": 7967,
             "beaten": 2741,
             "toplay": 482,
-            "dropped": 710,
+            "dropped": 711,
             "playing": 294
         },
         "metacritic": 85,
@@ -9020,8 +9024,8 @@ export default [
         "reviews_text_count": 14,
         "added": 12545,
         "added_by_status": {
-            "yet": 494,
-            "owned": 9731,
+            "yet": 495,
+            "owned": 9730,
             "beaten": 762,
             "toplay": 97,
             "dropped": 1341,
@@ -9380,4 +9384,384 @@ export default [
             }
         ]
     }
+],
+    "seo_title": "All Games",
+    "seo_description": "",
+    "seo_keywords": "",
+    "seo_h1": "All Games",
+    "noindex": false,
+    "nofollow": false,
+    "description": "",
+    "filters": {
+    "years": [
+        {
+            "from": 2020,
+            "to": 2023,
+            "filter": "2020-01-01,2023-12-31",
+            "decade": 2020,
+            "years": [
+                {
+                    "year": 2023,
+                    "count": 58872,
+                    "nofollow": false
+                },
+                {
+                    "year": 2022,
+                    "count": 167531,
+                    "nofollow": false
+                },
+                {
+                    "year": 2021,
+                    "count": 158178,
+                    "nofollow": false
+                },
+                {
+                    "year": 2020,
+                    "count": 119814,
+                    "nofollow": false
+                }
+            ],
+            "nofollow": true,
+            "count": 504395
+        },
+        {
+            "from": 2010,
+            "to": 2019,
+            "filter": "2010-01-01,2019-12-31",
+            "decade": 2010,
+            "years": [
+                {
+                    "year": 2019,
+                    "count": 73507,
+                    "nofollow": false
+                },
+                {
+                    "year": 2018,
+                    "count": 67924,
+                    "nofollow": false
+                },
+                {
+                    "year": 2017,
+                    "count": 54578,
+                    "nofollow": true
+                },
+                {
+                    "year": 2016,
+                    "count": 40236,
+                    "nofollow": true
+                },
+                {
+                    "year": 2015,
+                    "count": 25890,
+                    "nofollow": true
+                },
+                {
+                    "year": 2014,
+                    "count": 15351,
+                    "nofollow": true
+                },
+                {
+                    "year": 2013,
+                    "count": 6334,
+                    "nofollow": true
+                },
+                {
+                    "year": 2012,
+                    "count": 5383,
+                    "nofollow": true
+                },
+                {
+                    "year": 2011,
+                    "count": 4311,
+                    "nofollow": true
+                },
+                {
+                    "year": 2010,
+                    "count": 3887,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 297401
+        },
+        {
+            "from": 2000,
+            "to": 2009,
+            "filter": "2000-01-01,2009-12-31",
+            "decade": 2000,
+            "years": [
+                {
+                    "year": 2009,
+                    "count": 3111,
+                    "nofollow": true
+                },
+                {
+                    "year": 2008,
+                    "count": 2042,
+                    "nofollow": true
+                },
+                {
+                    "year": 2007,
+                    "count": 1576,
+                    "nofollow": true
+                },
+                {
+                    "year": 2006,
+                    "count": 1294,
+                    "nofollow": true
+                },
+                {
+                    "year": 2005,
+                    "count": 1182,
+                    "nofollow": true
+                },
+                {
+                    "year": 2004,
+                    "count": 1178,
+                    "nofollow": true
+                },
+                {
+                    "year": 2003,
+                    "count": 1150,
+                    "nofollow": true
+                },
+                {
+                    "year": 2002,
+                    "count": 998,
+                    "nofollow": true
+                },
+                {
+                    "year": 2001,
+                    "count": 1120,
+                    "nofollow": true
+                },
+                {
+                    "year": 2000,
+                    "count": 1016,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 14667
+        },
+        {
+            "from": 1990,
+            "to": 1999,
+            "filter": "1990-01-01,1999-12-31",
+            "decade": 1990,
+            "years": [
+                {
+                    "year": 1999,
+                    "count": 790,
+                    "nofollow": true
+                },
+                {
+                    "year": 1998,
+                    "count": 734,
+                    "nofollow": true
+                },
+                {
+                    "year": 1997,
+                    "count": 875,
+                    "nofollow": true
+                },
+                {
+                    "year": 1996,
+                    "count": 772,
+                    "nofollow": true
+                },
+                {
+                    "year": 1995,
+                    "count": 869,
+                    "nofollow": true
+                },
+                {
+                    "year": 1994,
+                    "count": 822,
+                    "nofollow": true
+                },
+                {
+                    "year": 1993,
+                    "count": 749,
+                    "nofollow": true
+                },
+                {
+                    "year": 1992,
+                    "count": 660,
+                    "nofollow": true
+                },
+                {
+                    "year": 1991,
+                    "count": 582,
+                    "nofollow": true
+                },
+                {
+                    "year": 1990,
+                    "count": 541,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 7394
+        },
+        {
+            "from": 1980,
+            "to": 1989,
+            "filter": "1980-01-01,1989-12-31",
+            "decade": 1980,
+            "years": [
+                {
+                    "year": 1989,
+                    "count": 438,
+                    "nofollow": true
+                },
+                {
+                    "year": 1988,
+                    "count": 321,
+                    "nofollow": true
+                },
+                {
+                    "year": 1987,
+                    "count": 345,
+                    "nofollow": true
+                },
+                {
+                    "year": 1986,
+                    "count": 251,
+                    "nofollow": true
+                },
+                {
+                    "year": 1985,
+                    "count": 231,
+                    "nofollow": true
+                },
+                {
+                    "year": 1984,
+                    "count": 185,
+                    "nofollow": true
+                },
+                {
+                    "year": 1983,
+                    "count": 206,
+                    "nofollow": true
+                },
+                {
+                    "year": 1982,
+                    "count": 149,
+                    "nofollow": true
+                },
+                {
+                    "year": 1981,
+                    "count": 65,
+                    "nofollow": true
+                },
+                {
+                    "year": 1980,
+                    "count": 35,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 2226
+        },
+        {
+            "from": 1970,
+            "to": 1979,
+            "filter": "1970-01-01,1979-12-31",
+            "decade": 1970,
+            "years": [
+                {
+                    "year": 1979,
+                    "count": 15,
+                    "nofollow": true
+                },
+                {
+                    "year": 1978,
+                    "count": 17,
+                    "nofollow": true
+                },
+                {
+                    "year": 1977,
+                    "count": 13,
+                    "nofollow": true
+                },
+                {
+                    "year": 1976,
+                    "count": 7,
+                    "nofollow": true
+                },
+                {
+                    "year": 1975,
+                    "count": 3,
+                    "nofollow": true
+                },
+                {
+                    "year": 1974,
+                    "count": 2,
+                    "nofollow": true
+                },
+                {
+                    "year": 1973,
+                    "count": 1,
+                    "nofollow": true
+                },
+                {
+                    "year": 1972,
+                    "count": 2,
+                    "nofollow": true
+                },
+                {
+                    "year": 1971,
+                    "count": 6,
+                    "nofollow": true
+                },
+                {
+                    "year": 1970,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 67
+        },
+        {
+            "from": 1960,
+            "to": 1969,
+            "filter": "1960-01-01,1969-12-31",
+            "decade": 1960,
+            "years": [
+                {
+                    "year": 1962,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 1
+        },
+        {
+            "from": 1950,
+            "to": 1959,
+            "filter": "1950-01-01,1959-12-31",
+            "decade": 1950,
+            "years": [
+                {
+                    "year": 1958,
+                    "count": 1,
+                    "nofollow": true
+                },
+                {
+                    "year": 1954,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 2
+        }
+    ]
+},
+    "nofollow_collections": [
+    "stores"
 ]
+}
