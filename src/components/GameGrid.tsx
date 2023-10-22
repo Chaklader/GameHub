@@ -10,8 +10,6 @@ import useGameQueryStore from "../store";
 
 const GameGrid = () => {
 
-    const gameQuery = useGameQueryStore(s => s.gameQuery);
-
     const {
         data: games,
         error,
@@ -19,7 +17,7 @@ const GameGrid = () => {
         isFetchingNextPage,
         fetchNextPage,
         hasNextPage
-    } = useGames(gameQuery);
+    } = useGames();
 
 
     const skeletons = [1, 2, 3, 4, 5, 6];
