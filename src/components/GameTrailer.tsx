@@ -10,24 +10,21 @@ const GameTrailer = ({gameId}: Props) => {
 
     const {data: trailers, error, isLoading} = useTrailers(gameId);
 
-    console.log("TRAILERS");
+    const first = trailers?.results[0];
 
-    console.log(trailers);
     if (isLoading) return <Spinner/>
     if (error) throw error;
 
-    return <div></div>
 
+    if (!first) return null;
 
-    // if (!first) return null;
-    //
-    // return first ? (
-    //     <video
-    //         src={first.data[480]}
-    //         poster={first.preview}
-    //         controls
-    //     />
-    // ) : null;
+    return first ? (
+        <video
+            src={first.data[480]}
+            poster={first.preview}
+            controls
+        />
+    ) : null;
 
 };
 
