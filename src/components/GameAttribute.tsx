@@ -11,8 +11,6 @@ interface Props {
 
 const GameAttribute = ({game}: Props) => {
 
-    console.log(game.genres);
-
     return (
         <SimpleGrid columns={2} as="dl">
             <DefinitionItem term='Platforms'>
