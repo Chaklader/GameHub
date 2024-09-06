@@ -3,9 +3,10 @@ import apiClient from "src/components/services/api-client.ts";
 import {CanceledError} from "axios";
 
 
-interface Game {
+export interface Game {
     id: string;
     name: string;
+    background_image: string;
 }
 
 interface FetchGamesResponse {

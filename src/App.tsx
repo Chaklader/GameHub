@@ -1,17 +1,18 @@
-import {Grid, GridItem} from '@chakra-ui/react'
-import NavBar from "./components/NavBar";
+import {Grid, GridItem, Show} from '@chakra-ui/react'
 import GameGrid from "src/components/GameGrid.tsx";
+import NavBar from "src/components/NavBar.tsx";
 
 const App = () => (
     <Grid
-        templateColumns="1fr 1fr"
         templateAreas={{
             base: `"nav" "main"`,
             lg: `"nav nav" "aside main"`
         }}
     >
         <GridItem area='nav'><NavBar/></GridItem>
-        <GridItem area='aside'>Aside</GridItem>
+        <Show above='lg'>
+            <GridItem area='aside'>Aside</GridItem>
+        </Show>
         <GridItem area='main'><GameGrid/></GridItem>
     </Grid>
 );
