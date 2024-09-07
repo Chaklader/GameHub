@@ -3,10 +3,18 @@ import apiClient from "src/components/services/api-client.ts";
 import {CanceledError} from "axios";
 
 
+export interface Platform {
+    id: number;
+    name: string;
+    slug: string;
+}
+
 export interface Game {
     id: string;
     name: string;
     background_image: string;
+    parent_platforms: { platform: Platform }[];
+    metacritic: number;
 }
 
 interface FetchGamesResponse {
