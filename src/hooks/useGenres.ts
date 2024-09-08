@@ -1,12 +1,12 @@
-import useData from "src/hooks/useData.ts";
+import genres from "src/data/genres.ts";
 
+// export interface Genre {
+//     id: number;
+//     name: string;
+//     image_background: string;
+// }
 
-export interface Genre {
-    id: number;
-    name: string;
-    image_background: string;
-}
-
-const useGenres = () => useData<Genre>('/genres');
+// const useGenres = () => useData<Genre>('/genres');
+const useGenres = () => ({data: genres, isLoading: false, error: false});
 
 export default useGenres
