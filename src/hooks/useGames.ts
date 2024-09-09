@@ -1,7 +1,6 @@
 import {GameQuery} from "src/App.tsx";
-import {FetchResponse} from "src/hooks/useData.ts";
 import {useQuery} from "@tanstack/react-query";
-import APIClient from "src/components/services/api-client.ts";
+import APIClient, {FetchResponse} from "src/components/services/api-client.ts";
 
 export interface Platform {
     id: number;
