@@ -4,18 +4,21 @@ import usePlatforms from "src/hooks/usePlatforms.ts";
 import {Platform} from "src/hooks/useGames.ts";
 
 interface Props {
-    selectedPlatform: Platform | null;
+    selectedPlatformId?: number;
     onSelectPlatform: (platform: Platform) => void;
 }
 
-const PlatformSelector = ({onSelectPlatform, selectedPlatform}: Props) => {
+const PlatformSelector = ({onSelectPlatform, selectedPlatformId}: Props) => {
     const {data: platforms, error} = usePlatforms();
     if (error) return null;
+
+
+    const platform = platforms.results.find(p => p.id === selectedPlatformId);
 
     return (
         <Menu>
             <MenuButton as={Button} rightIcon={<BsChevronDown/>}>
-                {selectedPlatform?.name || "Platforms"}
+                {platform?.name || "Platforms"}
             </MenuButton>
             <MenuList>
                 {platforms?.results.map(platform =>

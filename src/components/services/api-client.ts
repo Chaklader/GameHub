@@ -1,7 +1,5 @@
 import axios, {AxiosRequestConfig} from "axios";
 
-// import {FetchResponse} from "src/hooks/useData.ts";
-
 export interface FetchResponse<T> {
     count: number;
     results: T[];

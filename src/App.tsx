@@ -3,15 +3,13 @@ import GameGrid from "src/components/GameGrid.tsx";
 import NavBar from "src/components/NavBar.tsx";
 import GenreList from "src/components/GenreList.tsx";
 import {useState} from "react";
-import {Genre} from "src/hooks/useGenres.ts";
 import PlatformSelector from "src/components/PlatformSelector.tsx";
-import {Platform} from "src/hooks/useGames.ts";
 import SortSelector from "src/components/SortSelector.tsx";
 import GameHeading from "src/components/GameHeading.tsx";
 
 export interface GameQuery {
-    genre: Genre | null;
-    platform: Platform | null;
+    genreId?: number;
+    platformId?: number;
     sortOrder: string;
     searchedText: string;
 }
@@ -35,16 +33,17 @@ const App = () => {
                 onSearch={(searchedText) => setGameQuery({...gameQuery, searchedText})}/></GridItem>
             <Show above='lg'>
                 <GridItem area='aside' paddingX={5}>
-                    <GenreList onSelectGenre={(genre) => setGameQuery({...gameQuery, genre})}
-                               selectedGenre={gameQuery.genre}/>
+                    <GenreList onSelectGenre={(genre) => setGameQuery({...gameQuery, genreId: genre.id})}
+                               selectedGenreId={gameQuery.genreId}/>
                 </GridItem>
             </Show>
             <GridItem area='main'>
                 <Box paddingLeft={2}>
                     <GameHeading gameQuery={gameQuery}/>
                     <HStack spacing={5} marginBottom={5} marginTop={5}>
-                        <PlatformSelector onSelectPlatform={(platform) => setGameQuery({...gameQuery, platform})}
-                                          selectedPlatform={gameQuery.platform}/>
+                        <PlatformSelector
+                            onSelectPlatform={(platform) => setGameQuery({...gameQuery, platformId: platform.id})}
+                            selectedPlatformId={gameQuery.platformId}/>
                         <SortSelector
                             onSelectSortOrder={(sortOrder) => setGameQuery({...gameQuery, sortOrder})}
                             sortOrder={gameQuery.sortOrder}
