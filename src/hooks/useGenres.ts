@@ -1,5 +1,5 @@
 import genres from "src/data/genres.ts";
-import useCustomQuery from "src/hooks/useData.ts";
+import useDataQuery from "src/hooks/useData.ts";
 
 
 export interface Genre {
@@ -8,7 +8,7 @@ export interface Genre {
     image_background: string;
 }
 
-const useGenres = () => useCustomQuery<Genre>(
+const useGenres = () => useDataQuery<Genre>(
     ['genres'],
     '/genres',
     {

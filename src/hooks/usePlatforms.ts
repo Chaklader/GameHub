@@ -1,5 +1,5 @@
 import platforms from "src/data/platforms.ts";
-import useCustomQuery from "src/hooks/useData.ts";
+import useDataQuery from "src/hooks/useData.ts";
 
 export interface Platform {
     id: number;
@@ -7,7 +7,7 @@ export interface Platform {
     slug: string;
 }
 
-const usePlatforms = () => useCustomQuery<Platform>(
+const usePlatforms = () => useDataQuery<Platform>(
     ['platforms'],
     '/platforms/lists/parents',
     {
