@@ -9,15 +9,6 @@ export interface Genre {
     image_background: string;
 }
 
-// const useGenres = () => useDataQuery<Genre>(
-//     ['genres'],
-//     '/genres',
-//     {
-//         staleTime: 24 * 60 * 60 * 1000, // 24 hours
-//         initialData: {count: genres.length, results: genres}
-//     }
-// );
-
 const apiClient = new APIClient<Genre>('/genres');
 
 const useGenres = () =>
