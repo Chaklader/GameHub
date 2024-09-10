@@ -1,13 +1,15 @@
 import {createBrowserRouter} from "react-router-dom";
 import Layout from "src/pages/Layout.tsx";
 import HomePage from "src/pages/HomePage.tsx";
+import GameDetailPage from "src/pages/GameDetailPage.tsx";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Layout/>,
         children: [
-            {index: true, element: <HomePage/>}
+            {index: true, element: <HomePage/>},
+            {path: 'games/:id', element: <GameDetailPage/>}
         ]
     }
 ]);
