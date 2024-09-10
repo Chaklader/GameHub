@@ -17,7 +17,7 @@ const GameDetailPage = () => {
     return (
         <Box>
             <Heading>{game.name}</Heading>
-            {/* Add more game details here */}
+            <Text>{game.description_raw}</Text>
         </Box>
     );
 };
