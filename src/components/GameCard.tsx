@@ -3,8 +3,8 @@ import CriticScore from 'src/components/CriticScore.tsx';
 import Emoji from 'src/components/Emoji.tsx';
 import PlatformIconList from 'src/components/PlatformIconList.tsx';
 import getCroppedImageURL from 'src/components/services/image-url.ts';
-import {Game} from 'src/hooks/useGames.ts';
 import {Link} from "react-router-dom";
+import {Game} from "src/entities/game.ts";
 
 interface Props {
     game: Game;

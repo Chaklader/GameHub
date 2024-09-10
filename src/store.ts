@@ -1,11 +1,5 @@
 import {create} from 'zustand';
-
-interface GameQuery {
-    genreId?: number;
-    platformId?: number;
-    sortOrder?: string;
-    searchText?: string;
-}
+import {GameQuery} from "src/entities/gameQuery.ts";
 
 interface GameQueryStore {
     gameQuery: GameQuery;
