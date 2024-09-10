@@ -22,6 +22,14 @@ class APIClient<T> {
     getAll = (config: AxiosRequestConfig) => {
         return axiosInstance.get<FetchResponse<T>>(this.endpoint, config).then((res) => res.data);
     };
+
+    get = (id: string | number) => {
+        const url = `${this.endpoint}/${id}`;
+        console.log('Requesting URL:', url); // Log the URL being requested
+        return axiosInstance.get<T>(url).then((res) => res.data);
+    }
+
+
 }
 
 export default APIClient;
