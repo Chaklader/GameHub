@@ -1,4 +1,4 @@
-import {Platform} from "src/entities/platform.ts";
+import {Platform} from "src/entities/Platform.ts";
 
 export interface Game {
     id: string;

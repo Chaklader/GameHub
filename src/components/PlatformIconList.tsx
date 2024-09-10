@@ -5,7 +5,7 @@ import {IconType} from 'react-icons';
 import {BsGlobe} from 'react-icons/bs';
 import {MdPhoneIphone} from 'react-icons/md';
 import {SiNintendo} from 'react-icons/si';
-import {Platform} from "src/entities/platform.ts";
+import {Platform} from "src/entities/Platform.ts";
 
 interface Props {
     platforms: Platform[];

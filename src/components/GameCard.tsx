@@ -4,7 +4,7 @@ import Emoji from 'src/components/Emoji.tsx';
 import PlatformIconList from 'src/components/PlatformIconList.tsx';
 import getCroppedImageURL from 'src/components/services/image-url.ts';
 import {Link} from "react-router-dom";
-import {Game} from "src/entities/game.ts";
+import {Game} from "src/entities/Game.ts";
 
 interface Props {
     game: Game;
