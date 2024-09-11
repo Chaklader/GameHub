@@ -1,13 +1,16 @@
-import {Platform} from "src/entities/Platform.ts";
+import { Genre } from 'src/entities/Genre.ts';
+import { Platform } from 'src/entities/Platform.ts';
+import Publisher from 'src/entities/Publisher.ts';
 
-export interface Game {
-    id: string;
-    name: string;
-    slug: string;
-    description_raw: string;
-    background_image: string;
-    parent_platforms: { platform: Platform }[];
-    metacritic: number;
-    rating_top: number;
-    rating: number;
+export default interface Game {
+  id: number;
+  name: string;
+  slug: string;
+  genres: Genre[];
+  publishers: Publisher[];
+  description_raw: string;
+  background_image: string;
+  parent_platforms: { platform: Platform }[];
+  metacritic: number;
+  rating_top: number;
 }

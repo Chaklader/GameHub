@@ -1,32 +1,32 @@
-import {Image} from '@chakra-ui/react';
+import { Image } from '@chakra-ui/react';
 import bullsEye from '../assets/bulls-eye.webp';
 import meh from '../assets/meh.webp';
 import thumbsUp from '../assets/thumbs-up.webp';
 
 interface Props {
-    rating: number;
+  rating: number;
 }
 
 interface ImageProps {
-    src: string;
-    alt: string;
-    boxSize: string;
+  src: string;
+  alt: string;
+  boxSize: string;
 }
 
-const Emoji = ({rating}: Props) => {
-    if (rating < 3) return null;
+const Emoji = ({ rating }: Props) => {
+  if (rating < 3) return null;
 
-    const emojiMap: { [key: number]: ImageProps } = {
-        3: {src: meh, alt: 'meh', boxSize: '25px'},
-        4: {src: thumbsUp, alt: 'recommended', boxSize: '25px'},
-        5: {src: bullsEye, alt: 'exceptional', boxSize: '35px'},
-    };
+  const emojiMap: { [key: number]: ImageProps } = {
+    3: { src: meh, alt: 'meh', boxSize: '25px' },
+    4: { src: thumbsUp, alt: 'recommended', boxSize: '25px' },
+    5: { src: bullsEye, alt: 'exceptional', boxSize: '35px' },
+  };
 
-    return (
-        <div>
-            <Image {...emojiMap[rating]} />
-        </div>
-    );
+  return (
+    <div>
+      <Image {...emojiMap[rating]} />
+    </div>
+  );
 };
 
 export default Emoji;
